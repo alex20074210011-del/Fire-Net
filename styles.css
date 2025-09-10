@@ -216,6 +216,9 @@ footer {
     .botao-categorias i {
         font-size: 5px; 
     }
+    body {
+        overflow-x: hidden;
+    }
     .logo {
         gap: 8px; /* diminui o espaço entre ícone e texto */
     }
@@ -237,6 +240,7 @@ footer {
         font-size: 1rem;   /* diminui o ícone da lupa */
     }
 }
+
 
 
 
