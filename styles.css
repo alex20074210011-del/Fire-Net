@@ -208,7 +208,10 @@ footer {
         gap: 5px;  /* reduz o espaço entre os botões */
     }
     .botao-categorias {
-        font-size: 14px;   /* diminui o tamanho da fonte */
+        font-size: 7px;   /* diminui o tamanho da fonte */
+    }
+    .botao-categoria i {
+        font-size: 9px; 
     }
     .logo {
         gap: 8px; /* diminui o espaço entre ícone e texto */
@@ -231,6 +234,7 @@ footer {
         font-size: 1rem;   /* diminui o ícone da lupa */
     }
 }
+
 
 
 
