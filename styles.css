@@ -21,6 +21,7 @@ body {
     color: var(--text-color);
     background-color: var(--light-gray);
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 header {
@@ -236,6 +237,7 @@ footer {
         font-size: 1rem;   /* diminui o ícone da lupa */
     }
 }
+
 
 
 
