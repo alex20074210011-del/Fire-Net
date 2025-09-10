@@ -209,6 +209,8 @@ footer {
     }
     .botao-categorias {
         font-size: 7px;   /* diminui o tamanho da fonte */
+        padding: 5px 10px; /* reduz o padding */
+        width: 80px;
     }
     .botao-categorias i {
         font-size: 5px; 
@@ -234,6 +236,7 @@ footer {
         font-size: 1rem;   /* diminui o ícone da lupa */
     }
 }
+
 
 
 
