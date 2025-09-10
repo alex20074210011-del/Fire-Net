@@ -208,7 +208,19 @@ footer {
     .fa-bolt {
         font-size: 1.1rem; /* ou ajuste conforme necessário */
     }
+    .container-busca {
+        max-width: 180px; /* diminui a largura do campo de busca */
+        padding: 4px 8px; /* reduz o espaçamento interno */
+        margin: 0 8px;    /* diminui a margem lateral */
+    }
+    .container-busca input {
+        font-size: 0.9rem; /* diminui o texto do input */
+    }
+    .fa-magnifying-glass {
+        font-size: 1rem;   /* diminui o ícone da lupa */
+    }
 }
+
 
 
 
