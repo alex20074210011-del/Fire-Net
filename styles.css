@@ -98,11 +98,11 @@ h1 {
     background: none;
     padding: 12px 24px;
     cursor: pointer;
-    font-size: 14px; /* reduzir o tamanho da fonte */
+    font-size: 8px; /* reduzir o tamanho da fonte */
 }
 
 .botao-categorias i {
-    font-size: 18px; /* reduzir o tamanho do ícone */
+    font-size: 12px; /* reduzir o tamanho do ícone */
 }
 
 .botao-categorias:hover {
@@ -225,6 +225,7 @@ footer {
         font-size: 1rem;   /* diminui o ícone da lupa */
     }
 }
+
 
 
 
