@@ -25,6 +25,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    position: relative;
     -webkit-overflow-x: hidden; /* para Safari */
     -moz-overflow-x: hidden;    /* para Firefox */
 }
@@ -243,7 +244,8 @@ footer {
         overflow-x: hidden;
         margin: 0;
         padding: 0;
-        width: 100%;
+        width: 100vw;
+        position: relative;
         -webkit-overflow-x: hidden; /* para Safari */
         -moz-overflow-x: hidden;    /* para Firefox */
     }
@@ -278,6 +280,7 @@ footer {
     width: 100%;
   }
 }
+
 
 
 
