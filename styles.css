@@ -82,7 +82,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 5px;
     width: 100%;
     max-width: 1200px;
     padding: 8px 32px;
@@ -225,6 +225,7 @@ footer {
         font-size: 1rem;   /* diminui o ícone da lupa */
     }
 }
+
 
 
 
