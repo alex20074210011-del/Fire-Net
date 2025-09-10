@@ -208,8 +208,26 @@ footer {
     font-size: 16px;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.item {
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Ajuste para telas pequenas (celular) */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .container-categorias nav {
         gap: 5px;  /* reduz o espaço entre os botões */
     }
@@ -249,7 +267,18 @@ footer {
     .fa-magnifying-glass {
         font-size: 1rem;   /* diminui o ícone da lupa */
     }
+@media (max-width: 768px) {
+  .item {
+    width: 50%;
+  }
 }
+
+@media (max-width: 480px) {
+  .item {
+    width: 100%;
+  }
+}
+
 
 
 
