@@ -152,7 +152,7 @@ footer {
     transform: translateY(-16px);
 }
 
-.imagem-produto: {
+.img.imagem-produto: {
     height: 200px;
     width: 100%;
     object-fit: cover;
@@ -220,6 +220,7 @@ footer {
         font-size: 1rem;   /* diminui o ícone da lupa */
     }
 }
+
 
 
 
