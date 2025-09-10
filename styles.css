@@ -204,6 +204,12 @@ footer {
 
 /* Ajuste para telas pequenas (celular) */
 @media (max-width: 600px) {
+    .container-categorias nav {
+        gap: 8px;  /* reduz o espaço entre os botões */
+    }
+    .botao-categorias {
+        font-size: 14px;   /* diminui o tamanho da fonte */
+    }
     .logo {
         gap: 8px; /* diminui o espaço entre ícone e texto */
     }
@@ -225,6 +231,7 @@ footer {
         font-size: 1rem;   /* diminui o ícone da lupa */
     }
 }
+
 
 
 
