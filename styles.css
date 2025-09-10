@@ -203,7 +203,7 @@ footer {
 }
 
 /* Ajuste para telas pequenas (celular) */
-@media (max-width: 300px) {
+@media (max-width: 600px) {
   .container-categorias nav {
         gap: 5px;  /* reduz o espaço entre os botões */
     }
@@ -235,6 +235,7 @@ footer {
         font-size: 1rem;   /* diminui o ícone da lupa */
     }
 }
+
 
 
 
