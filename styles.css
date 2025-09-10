@@ -203,12 +203,16 @@ footer {
 }
 
 /* Ajuste para telas pequenas (celular) */
-@media (max-width: 600px) {
-    .container-categorias nav {
-        gap: 8px;  /* reduz o espaço entre os botões */
+@media (max-width: 768px) {
+  .container-categorias nav {
+        gap: 5px;  /* reduz o espaço entre os botões */
     }
     .botao-categorias {
         font-size: 14px;   /* diminui o tamanho da fonte */
+        padding: 8px 12px; /* reduz o padding */
+    }
+    .botao-categorias i {
+        font-size: 16px;   /* diminui o tamanho do ícone */
     }
     .logo {
         gap: 8px; /* diminui o espaço entre ícone e texto */
@@ -231,6 +235,7 @@ footer {
         font-size: 1rem;   /* diminui o ícone da lupa */
     }
 }
+
 
 
 
