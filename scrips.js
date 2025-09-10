@@ -98,7 +98,7 @@ function mostrarProdutos (){
         if(prd.categoria === categoria || categoria === "todos") {
 
 
-        htmlProdutos = htmlProdutos + `
+        htmlProdutos += `
             <div class="cartao-produto">
                 <img src="${prd.imagem}" class="imagem-produto" style="height: 200px; width: 100%; object-fit: cover; aspect-ratio: 1/1;">
                 <div class="info-produto">
@@ -161,6 +161,7 @@ todosBotoes.forEach(botao => {
 
 
 })
+
 
 
 
